@@ -9,8 +9,12 @@
     grid-column: span 2;
   }
   .main {
-    background-color: darkblue;
+    background-color: darkblue !important;
     height: 100vh;
     padding: 3rem;
+  }
+
+  .details {
+    background-color: darkred !important;
   }
 }
