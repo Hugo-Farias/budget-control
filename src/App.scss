@@ -1,6 +1,12 @@
 .app {
+  display: grid;
+  //grid-template-rows: 10rem 1fr;
+  //grid-template-columns: 1fr 1fr 0.5fr;
+
   min-height: 100vh;
   .header {
+    padding: 2rem;
+    grid-column: span 2;
   }
   .main {
     background-color: darkblue;
