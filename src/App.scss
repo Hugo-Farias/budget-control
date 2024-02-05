@@ -2,16 +2,21 @@
 
 .app {
   display: grid;
-  grid-template-rows: 10rem 1fr;
-  //grid-template-columns: 1fr 1fr 0.5fr;
-  min-height: 100vh;
-  gap: 0.1rem;
+  //grid-template-rows: 5rem 1fr;
+
+  //gap: 0.1rem;
+
+  @media (min-width: 600px) {
+    grid-template-columns: 2.5fr 1fr;
+  }
   .header {
-    padding: 2rem;
-    max-height: 5rem;
+    //position: fixed;
+    //padding: 3rem;
+    min-height: 10rem;
+    width: 100%;
+    background-color: gray;
     @media (min-width: 600px) {
       grid-column: span 2;
-      max-height: 10rem;
     }
   }
   .main {
