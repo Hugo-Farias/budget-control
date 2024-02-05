@@ -1,20 +1,30 @@
+@import "variables";
+
 .app {
   display: grid;
-  //grid-template-rows: 10rem 1fr;
+  grid-template-rows: 10rem 1fr;
   //grid-template-columns: 1fr 1fr 0.5fr;
-
   min-height: 100vh;
+  gap: 0.1rem;
   .header {
     padding: 2rem;
-    grid-column: span 2;
+    max-height: 5rem;
+    @media (min-width: 600px) {
+      grid-column: span 2;
+      max-height: 10rem;
+    }
   }
   .main {
     background-color: darkblue !important;
-    height: 100vh;
     padding: 3rem;
   }
 
   .details {
     background-color: darkred !important;
+    visibility: hidden;
+
+    @media (min-width: $screen-mid) {
+      visibility: visible;
+    }
   }
 }
