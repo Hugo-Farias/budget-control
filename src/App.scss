@@ -1,27 +1,26 @@
 @import "variables";
 
-.app {
-  display: grid;
-  //grid-template-rows: 5rem 1fr;
-  //gap: 0.1rem;
+$header-size: 10rem;
 
-  @media (min-width: 600px) {
-    grid-template-columns: 2.5fr 1fr;
-  }
+.app {
+  //@media (min-width: 600px) {
+  //}
   .header {
-    //position: fixed;
+    position: fixed;
     //padding: 3rem;
-    min-height: 10rem;
+    min-height: $header-size;
     width: 100%;
-    background-color: gray;
+    background-color: gray !important;
 
     @media (min-width: 600px) {
-      grid-column: span 2;
     }
   }
   .main {
     background-color: darkblue !important;
-    padding: 3rem;
+    //padding-top: $header-size;
+    padding: $header-size + 2 2rem 2rem 2rem;
+    height: 100%;
+    overflow: scroll;
   }
 
   .details {

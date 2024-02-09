@@ -4,14 +4,16 @@ import Group from "./components/Group";
 function App() {
   return (
     <div className={"app"}>
-      <div className="header">
+      <header className="header">
         <h1>header</h1>
-      </div>
-      <div className={"main"}>
-        <Group />
-      </div>
-      <div className="details">
-        <h1>details</h1>
+      </header>
+      <div className="main">
+        <div className={"list"}>
+          <Group />
+        </div>
+        <div className="details">
+          <h1>details</h1>
+        </div>
       </div>
     </div>
   );
