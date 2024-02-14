@@ -7,7 +7,7 @@ const Header = function () {
         Feb 2024 <span />
       </p>
 
-      <div className="funds"></div>
+      <div className="total">3000</div>
     </div>
   );
 };

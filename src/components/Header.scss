@@ -6,6 +6,7 @@
   height: 8rem;
   padding-inline: 1.8rem;
   border-bottom: 0.1rem solid $color-border;
+  overflow: hidden;
 
   & > .date {
     display: flex;
@@ -27,11 +28,16 @@
     }
   }
 
-  & > .funds {
+  & > .total {
+    display: flex;
+    align-items: center;
+    padding: 3rem;
     margin-inline: auto;
-    min-height: 80%;
-    width: 10rem;
+    max-height: 85%;
+    //width: 10rem;
     background-color: $color-gray;
     border-radius: 1.5rem;
+    font-weight: 700;
+    font-size: 2rem;
   }
 }
