@@ -1,5 +1,7 @@
+@import "variables";
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 10px;
 
   //color-scheme: light dark;
@@ -23,5 +25,5 @@ html {
 }
 
 body {
-  color: whitesmoke;
+  color: $color-font;
 }

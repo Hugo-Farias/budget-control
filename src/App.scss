@@ -1,34 +1,4 @@
 @import "variables";
 
-$header-size: 10rem;
-
 .app {
-  //@media (min-width: 600px) {
-  //}
-  .header {
-    position: fixed;
-    //padding: 3rem;
-    min-height: $header-size;
-    width: 100%;
-    background-color: gray !important;
-
-    @media (min-width: 600px) {
-    }
-  }
-  .main {
-    background-color: darkblue !important;
-    //padding-top: $header-size;
-    padding: $header-size + 2 2rem 2rem 2rem;
-    height: 100%;
-    overflow: scroll;
-  }
-
-  .details {
-    background-color: darkred !important;
-    visibility: hidden;
-
-    @media (min-width: $screen-mid) {
-      visibility: visible;
-    }
-  }
 }
