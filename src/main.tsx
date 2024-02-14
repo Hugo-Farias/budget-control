@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.scss";
 
-// @ts-expect-error Should be removed anyway
 if (import.meta.hot) {
   import.meta.hot.on("vite:beforeUpdate", () => console.clear());
 }
