@@ -32,8 +32,14 @@
     max-height: 85%;
     //width: 10rem;
     background-color: $color-gray;
+    //background-color: black;
     border-radius: 1.5rem;
     font-weight: 700;
     font-size: 2rem;
+    //mix-blend-mode: luminosity;
+
+    &::before {
+      content: "$";
+    }
   }
 }
