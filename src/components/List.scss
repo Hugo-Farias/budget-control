@@ -1,9 +1,16 @@
+@import "../variables";
+
 .list {
   .toolbar {
+    border-bottom: 1px solid $color-border;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: $color-primary;
     display: flex;
     align-items: center;
+    gap: 2rem;
     padding-inline: 2rem;
-    background-color: blue;
+    //background-color: blue;
     height: 4rem;
   }
 }
