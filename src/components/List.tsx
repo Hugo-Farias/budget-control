@@ -1,13 +1,17 @@
 import "./List.scss";
-import { backwardSVG, forwardSVG, addSVG } from "../resources/svg";
+import { backwardSvg, forwardSvg, addSvg } from "../resources/svg";
+import Group from "./Group";
 
 const List = function () {
   return (
     <div className="list">
       <div className="toolbar">
-        <span className="add-group">{addSVG} Add Group</span>
-        <span className="undo">{backwardSVG} Undo</span>
-        <span className="redo">{forwardSVG} Redo</span>
+        <span className="add-group">{addSvg} Add Group</span>
+        <span className="undo">{backwardSvg} Undo</span>
+        <span className="redo">{forwardSvg} Redo</span>
+      </div>
+      <div className="groups">
+        <Group />
       </div>
     </div>
   );

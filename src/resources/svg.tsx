@@ -1,4 +1,4 @@
-export const addSVG = (
+export const addSvg = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -15,7 +15,7 @@ export const addSVG = (
   </svg>
 );
 
-export const backwardSVG = (
+export const backwardSvg = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -32,7 +32,7 @@ export const backwardSVG = (
   </svg>
 );
 
-export const forwardSVG = (
+export const forwardSvg = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -45,6 +45,23 @@ export const forwardSVG = (
       strokeLinecap="round"
       strokeLinejoin="round"
       d="m15 15 6-6m0 0-6-6m6 6H9a6 6 0 0 0 0 12h3"
+    />
+  </svg>
+);
+
+export const arrowDownSvg = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className="w-6 h-6"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="m19.5 8.25-7.5 7.5-7.5-7.5"
     />
   </svg>
 );

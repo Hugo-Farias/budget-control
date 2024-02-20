@@ -2,7 +2,7 @@
 
 .list {
   & > .toolbar {
-    border-bottom: 1px solid $color-border;
+    //border-bottom: 1px solid $color-border;
     font-size: 1.5rem;
     font-weight: 600;
     color: $color-primary;
@@ -11,7 +11,7 @@
     gap: 3rem;
     padding-inline: 2rem;
     //background-color: blue;
-    height: 4rem;
+    height: $size-list;
 
     & > span {
       cursor: pointer;
