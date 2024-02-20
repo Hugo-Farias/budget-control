@@ -1,16 +1,26 @@
 @import "../variables";
 
 .list {
-  .toolbar {
+  & > .toolbar {
     border-bottom: 1px solid $color-border;
     font-size: 1.5rem;
     font-weight: 600;
     color: $color-primary;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     padding-inline: 2rem;
     //background-color: blue;
     height: 4rem;
+
+    & > span {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      & > svg {
+        margin-right: 0.5rem;
+        height: 2rem;
+      }
+    }
   }
 }
