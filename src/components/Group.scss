@@ -1,18 +1,25 @@
 @import "../variables";
 
 .group {
+  cursor: pointer;
   display: flex;
   align-items: center;
   height: $size-list;
   background-color: $color-gray;
   border-block: 1px solid $color-border;
-  padding-inline: 4rem;
+  //padding-inline: 2rem;
   font-size: 1.5rem;
   font-weight: 700;
   color: $color-font;
 
-  & svg {
-    margin-right: 0.5rem;
-    height: 2rem;
+  .title {
+    display: flex;
+    align-items: center;
+    padding-inline: 4rem;
+    //padding-block: 0.5rem;
+    & > svg {
+      margin-right: 0.5rem;
+      height: 2rem;
+    }
   }
 }
