@@ -3,15 +3,21 @@ import { arrowLeftSvg } from "../resources/svg";
 import { useState } from "react";
 import { group } from "../types";
 
-const Group = function (props: group) {
-  const [open, setOpen] = useState(props.openInitial);
+const Group = function ({ openInitial, childList, title }: group) {
+  const [open, setOpen] = useState(openInitial);
+
+  let childListJSX = null;
+  if (childList) {
+    childListJSX = childList.map((value, index) => {});
+  }
 
   return (
     <div className={`group ${open}`} onClick={() => setOpen((prev) => !prev)}>
       <div className="title">
         {arrowLeftSvg}
-        {props.title}
+        {title}
       </div>
+      {/*{childListJSX ? childListJSX : ""}*/}
     </div>
   );
 };

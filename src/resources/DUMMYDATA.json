@@ -1,0 +1,58 @@
+[
+  {
+    "openInitial": false,
+    "title": "Parent Group 1",
+    "childList": [
+      {
+        "title": "Child 1",
+        "amount": 100,
+        "expiration": "2023-12-31T00:00:00.000Z"
+      },
+      {
+        "title": "Child 2",
+        "amount": 200,
+        "expiration": "2024-06-15T00:00:00.000Z"
+      },
+      {
+        "title": "Child 3",
+        "amount": 150,
+        "expiration": "2023-10-15T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "openInitial": true,
+    "title": "Parent Group 2",
+    "childList": [
+      {
+        "title": "Child 1",
+        "amount": 80,
+        "expiration": "2024-01-31T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "openInitial": false,
+    "title": "Parent Group 3"
+  },
+  {
+    "openInitial": true,
+    "title": "Parent Group 4"
+  },
+  {
+    "openInitial": false,
+    "title": "Parent Group 5",
+    "childList": [
+      {
+        "title": "Child 1",
+        "amount": 120,
+        "expiration": "2023-11-30T00:00:00.000Z"
+      },
+      {
+        "title": "Child 2",
+        "amount": 180,
+        "expiration": "2024-02-28T00:00:00.000Z"
+      }
+    ]
+  }
+]

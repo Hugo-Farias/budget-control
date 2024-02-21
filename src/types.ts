@@ -1,7 +1,7 @@
 export type group = {
   openInitial: boolean;
   title: string;
-  children?: groupChild;
+  childList: groupChild[] | undefined;
 };
 
 export type groupChild = {
