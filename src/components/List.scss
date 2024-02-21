@@ -12,14 +12,26 @@
     padding-inline: 2rem;
     //background-color: blue;
     height: $size-list;
+    overflow: hidden;
 
     & > span {
+      transition: background-color 0.2s ease-in-out;
       cursor: pointer;
       display: flex;
       align-items: center;
+      height: 90%;
+      padding-inline: 0.5rem;
+      border-radius: 0.5rem;
+      //background-color: red;
+
       & > svg {
         margin-right: 0.5rem;
         height: 2rem;
+      }
+
+      &:hover,
+      &:active {
+        background-color: $color-background;
       }
     }
   }

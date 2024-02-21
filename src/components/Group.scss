@@ -25,8 +25,9 @@
       //&.open {
       //}
     }
-    &.open svg {
-      transform: rotate(90deg);
-    }
+  }
+
+  &.true svg {
+    transform: rotate(90deg);
   }
 }

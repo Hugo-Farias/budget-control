@@ -11,7 +11,7 @@ const List = function () {
         <span className="redo">{forwardSvg} Redo</span>
       </div>
       <div className="groups">
-        <Group />
+        <Group openInitial={false} title={"Isaque"} />
       </div>
     </div>
   );
