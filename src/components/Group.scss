@@ -18,8 +18,15 @@
     padding-inline: 4rem;
     //padding-block: 0.5rem;
     & > svg {
+      transition: transform 0.2s ease-in-out;
       margin-right: 0.5rem;
       height: 2rem;
+
+      //&.open {
+      //}
+    }
+    &.open svg {
+      transform: rotate(90deg);
     }
   }
 }

@@ -49,7 +49,7 @@ export const forwardSvg = (
   </svg>
 );
 
-export const arrowDownSvg = (
+export const arrowLeftSvg = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -61,7 +61,7 @@ export const arrowDownSvg = (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+      d="m8.25 4.5 7.5 7.5-7.5 7.5"
     />
   </svg>
 );
