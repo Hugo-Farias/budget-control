@@ -1,22 +1,17 @@
 @import "../variables";
 
 .group {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  height: $size-list;
-  background-color: $color-gray;
-  border-block: 1px solid $color-border;
-  //padding-inline: 2rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: $color-font;
-
   .title {
+    padding-inline: 2rem;
+    cursor: pointer;
     display: flex;
     align-items: center;
-    padding-inline: 4rem;
-    //padding-block: 0.5rem;
+    height: $size-list;
+    background-color: $color-gray;
+    border-block: 1px solid $color-border;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $color-font;
     & > svg {
       transition: transform 0.1s ease-in-out;
       margin-right: 0.5rem;
@@ -27,7 +22,21 @@
     }
   }
 
+  .child-list {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+
+    & > div {
+      padding-block: 1rem;
+    }
+  }
+
   &.true svg {
     transform: rotate(90deg);
+  }
+
+  &.false .child-list {
+    display: none;
   }
 }
