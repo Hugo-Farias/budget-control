@@ -21,9 +21,9 @@ const List = function () {
   return (
     <div className="list">
       <div className="toolbar">
-        <span className="add-group">{addSvg} Add Group</span>
-        <span className="undo">{backwardSvg} Undo</span>
-        <span className="redo">{forwardSvg} Redo</span>
+        <span className="add-group">{addSvg}Add Group</span>
+        <span className="undo">{backwardSvg}Undo</span>
+        <span className="redo">{forwardSvg}Redo</span>
       </div>
       <div className="groups">{groupJSX}</div>
     </div>

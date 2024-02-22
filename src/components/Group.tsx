@@ -8,17 +8,23 @@ const Group = function ({ openInitial, childList, title }: group) {
 
   let childListJSX = null;
   if (childList) {
-    childListJSX = childList.map((value, index) => {});
+    childListJSX = childList.map((value, index) => {
+      return <div key={index}>{value.title}</div>;
+    });
   }
 
   return (
-    <div className={`group ${open}`} onClick={() => setOpen((prev) => !prev)}>
-      <div className="title">
-        {arrowLeftSvg}
-        {title}
+    <>
+      <div className={`group ${open}`} onClick={() => setOpen((prev) => !prev)}>
+        <div className="title">
+          {arrowLeftSvg}
+          {title}
+        </div>
+        <div className={`child-list ${open}`}>
+          {childListJSX ? childListJSX : ""}
+        </div>
       </div>
-      {/*{childListJSX ? childListJSX : ""}*/}
-    </div>
+    </>
   );
 };
 
