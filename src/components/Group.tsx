@@ -9,14 +9,22 @@ const Group = function ({ openInitial, childList, title }: group) {
   let childListJSX = null;
   if (childList) {
     childListJSX = childList.map((value, index) => {
-      return <div key={index}>{value.title}</div>;
+      return (
+        <div draggable={true} key={index}>
+          {value.title}
+        </div>
+      );
     });
   }
 
+  const clickHandler = function () {
+    return childList ? setOpen((prev) => !prev) : null;
+  };
+
   return (
     <>
-      <div className={`group ${open}`} onClick={() => setOpen((prev) => !prev)}>
-        <div className="title">
+      <div className={`group ${open} ${!childList ? "empty" : ""}`}>
+        <div draggable={true} className="title" onClick={clickHandler}>
           {arrowLeftSvg}
           {title}
         </div>

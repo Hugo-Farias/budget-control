@@ -1,57 +1,151 @@
 [
   {
     "openInitial": false,
-    "title": "Parent Group 1",
+    "title": "Bank of America",
     "childList": [
       {
-        "title": "Child 1",
-        "amount": 100,
+        "title": "Mortgage",
+        "amount": 1500,
         "expiration": "2023-12-31T00:00:00.000Z"
       },
       {
-        "title": "Child 2",
-        "amount": 200,
+        "title": "Car Loan",
+        "amount": 300,
         "expiration": "2024-06-15T00:00:00.000Z"
       },
       {
-        "title": "Child 3",
-        "amount": 150,
+        "title": "Credit Card Bill",
+        "amount": 120,
         "expiration": "2023-10-15T00:00:00.000Z"
       }
     ]
   },
   {
     "openInitial": true,
-    "title": "Parent Group 2",
+    "title": "John Doe",
     "childList": [
       {
-        "title": "Child 1",
-        "amount": 80,
+        "title": "Rent",
+        "amount": 1000,
         "expiration": "2024-01-31T00:00:00.000Z"
+      },
+      {
+        "title": "Groceries",
+        "amount": 200,
+        "expiration": "2023-12-15T00:00:00.000Z"
       }
     ]
   },
   {
     "openInitial": false,
-    "title": "Parent Group 3"
+    "title": "XYZ Medical Center",
+    "childList": [
+      {
+        "title": "Medical Checkup",
+        "amount": 80,
+        "expiration": "2023-09-30T00:00:00.000Z"
+      }
+    ]
   },
   {
     "openInitial": true,
-    "title": "Parent Group 4"
-  },
-  {
-    "openInitial": false,
-    "title": "Parent Group 5",
+    "title": "Jane Smith",
     "childList": [
       {
-        "title": "Child 1",
-        "amount": 120,
+        "title": "Utilities",
+        "amount": 200,
         "expiration": "2023-11-30T00:00:00.000Z"
       },
       {
-        "title": "Child 2",
-        "amount": 180,
+        "title": "Groceries",
+        "amount": 80,
         "expiration": "2024-02-28T00:00:00.000Z"
+      },
+      {
+        "title": "Clothing",
+        "amount": 150,
+        "expiration": "2023-08-10T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "openInitial": false,
+    "title": "Student Loan Company",
+    "childList": [
+      {
+        "title": "Student Loan Payment",
+        "amount": 500,
+        "expiration": "2023-09-30T00:00:00.000Z"
+      },
+      {
+        "title": "Textbooks",
+        "amount": 200,
+        "expiration": "2023-10-31T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "openInitial": true,
+    "title": "Walmart",
+    "childList": [
+      {
+        "title": "Groceries",
+        "amount": 150,
+        "expiration": "2023-11-05T00:00:00.000Z"
+      },
+      {
+        "title": "Home Supplies",
+        "amount": 100,
+        "expiration": "2023-12-20T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "openInitial": false,
+    "title": "Best Buy",
+    "childList": [
+      {
+        "title": "Electronics",
+        "amount": 400,
+        "expiration": "2024-01-15T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "openInitial": true,
+    "title": "Gas Company",
+    "childList": [
+      {
+        "title": "Natural Gas Bill",
+        "amount": 80,
+        "expiration": "2023-12-10T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "openInitial": false,
+    "title": "Amazon",
+    "childList": [
+      {
+        "title": "Online Shopping",
+        "amount": 300,
+        "expiration": "2023-10-25T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "openInitial": true,
+    "title": "Local Hospital",
+    "childList": [
+      {
+        "title": "Medical Bill",
+        "amount": 1000,
+        "expiration": "2023-11-30T00:00:00.000Z"
+      },
+      {
+        "title": "Prescription",
+        "amount": 50,
+        "expiration": "2023-12-05T00:00:00.000Z"
       }
     ]
   }

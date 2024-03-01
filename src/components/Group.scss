@@ -36,6 +36,15 @@
     transform: rotate(90deg);
   }
 
+  &.empty {
+    & .title {
+      cursor: default;
+    }
+    & svg {
+      color: transparent;
+    }
+  }
+
   &.false .child-list {
     display: none;
   }
