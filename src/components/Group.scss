@@ -25,10 +25,14 @@
   .child-list {
     font-weight: 600;
     font-size: 1.5rem;
-    padding-left: 5rem;
 
     & > div {
+      transition: background-color 200ms ease-in-out;
+      padding-left: 5rem;
       padding-block: 1rem;
+      &:active {
+        background-color: $color-primary;
+      }
     }
   }
 
