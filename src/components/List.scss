@@ -2,16 +2,17 @@
 
 .list {
   & > .toolbar {
-    //border-bottom: 1px solid $color-border;
+    display: flex;
+    border-bottom: 1px solid $color-border;
     font-size: 1.5rem;
     font-weight: 600;
     color: $color-primary;
-    display: flex;
     align-items: center;
     gap: 3rem;
     padding-inline: 2rem;
     //background-color: blue;
-    height: $size-list;
+    height: #{$size-list}rem;
+    //height: 4.2rem;
     overflow: hidden;
 
     & > span {
@@ -36,7 +37,7 @@
     }
   }
   & > .groups {
-    max-height: 75vh;
+    height: calc(100vh - #{$size-list + $size-header}rem);
     overflow-y: scroll;
   }
 }

@@ -6,7 +6,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    height: $size-list;
+    height: #{$size-list}rem;
     background-color: $color-gray;
     border-block: 1px solid $color-border;
     font-size: 1.5rem;
